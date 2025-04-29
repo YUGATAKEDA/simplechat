@@ -158,6 +158,7 @@ export class BedrockChatbotStack extends cdk.Stack {
       role: lambdaRole,
       environment: {
         MODEL_ID: modelId,
+        FASTAPI_URL: 'https://2911-34-169-31-77.ngrok-free.app'
       },
     });
 
